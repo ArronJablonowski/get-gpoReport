@@ -1,10 +1,8 @@
 # get-gpoReport
-Creates an HTML report of all GPOs in the current directory.
+Creates an HTML report of all GPOs in the script's current working directory.
 
-Double click cmd file to run. 
+Double click cmd file to run. Script will spawn and hide a powershell window while it builds the report. 
 
-If you have access to a system but not the domain (example: SYSTEM user), place file in one of the many startup folders and wait for a domain user to login: 
-- %appdata%\Microsoft\Windows\Start Menu\Programs\Startup\
-- C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp\
+*Requires RSAT to be installed and PS module 'grouppolicy' to be imported.
 
-Script spawns and hides a powershell window. 
+
