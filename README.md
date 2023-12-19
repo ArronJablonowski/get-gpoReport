@@ -1,5 +1,5 @@
 # get-gpoReport
-Creates an HTML report of all GPOs in the current directory
+Creates an HTML report of all GPOs in the current directory.
 
 Double click cmd file to run. 
 
